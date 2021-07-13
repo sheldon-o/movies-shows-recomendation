@@ -24,6 +24,7 @@ sum = reduce(add_all,doubles)
 print(sum)
 summ = reduce(lambda a,b :a+b,doubles)
 print(summ)'''
+#added a comment
 
 def smart_div(func):
     def inner(a,b):
